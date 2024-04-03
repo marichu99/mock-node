@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
 const RequestSchema = mongoose.Schema({
-  _id: Number,
   name: {
     type: String,
     required: true,
